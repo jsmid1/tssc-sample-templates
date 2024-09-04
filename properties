@@ -8,8 +8,8 @@ export GITHUB__DEFAULT__ORG=""
 export QUAY__DEFAULT__ORG=""
 
 # PE can replace these values with own pipeline fork
-export PIPELINE__REPO__URL=https://github.com/jsmid1/tssc-sample-pipelines
-export PIPELINE__REPO__BRANCH=RHTAPBUGS-1305-add-workspace
+export PIPELINE__REPO__URL=https://github.com/redhat-appstudio/tssc-sample-pipelines
+export PIPELINE__REPO__BRANCH=selfupdate/import-build-definitions
 
 export DEFAULT__DEPLOYMENT__NAMESPACE__PREFIX=rhtap-app
 
