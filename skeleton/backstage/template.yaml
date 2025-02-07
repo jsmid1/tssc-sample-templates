@@ -102,7 +102,6 @@ spec:
                 - ciType  
                 - glOwner
                 - hostType
-                - repoVisibility
               properties:
                 hostType:
                     const: GitLab  
