@@ -10,6 +10,7 @@ export GITHUB__DEFAULT__ORG=""
 export GITLAB__DEFAULT__ORG=""
 export BITBUCKET__DEFAULT__ORG=""
 export QUAY__DEFAULT__ORG=""
+export REPOSITORY__DEFAULT__VISIBILITY=""
 
 # PE can replace these values with own pipeline fork
 export PIPELINE__REPO__URL=https://github.com/redhat-appstudio/tssc-sample-pipelines
@@ -42,4 +43,7 @@ export DEFAULT_ORG_FOR_BITBUCKET="default: $BITBUCKET__DEFAULT__ORG"
 fi
 if [ ! -z "${QUAY__DEFAULT__ORG}" ]; then
 export DEFAULT_ORG_FOR_QUAY="default: $QUAY__DEFAULT__ORG"
+fi
+if [ ! -z "${REPOSITORY__DEFAULT__VISIBILITY}" ]; then
+export DEFAULT_REPO_VISIBILITY="default: $REPOSITORY__DEFAULT__VISIBILITY"
 fi
